@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Example</title>
+    <style>
+      table {
+        width: 50px;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+    <head>
+      <body>
+        <table border="1">
+          <caption>
+            Sample Table
+          </caption>
+          <thead>
+            <tr>
+              <th rowspan="2">Name</th>
+              <th rowspan="2">Age</th>
+              <th colspan="2">salary</th>
+            </tr>
+            <tr>
+              <th>INR</th>
+              <th>USD</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Arun</td>
+              <td>30</td>
+              <td>50000</td>
+              <td>650</td>
+            </tr>
+            <tr>
+              <td>Ravi</td>
+              <td>25</td>
+              <td>40000</td>
+              <td>520</td>
+            </tr>
+            <tr>
+              <td>Priya</td>
+              <td>28</td>
+              <td>45000</td>
+              <td>580</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="2">Total In INR</td>
+              <td colspan="2">135000</td>
+            </tr>
+          </tfoot>
+        </table>
+      </body>
+    </head>
+  </head>
+</html>
